@@ -16,7 +16,7 @@ if numLen>=4:
             midOne=rem
         elif chk == (numLen-1):
             midTwo=rem
-        num==int(num/10)
+        num=int(num/10)
         chk=chk+1
     prod=midOne*midTwo
     print("product of mid digits is:",prod)
